@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentasi Laporan PKL - Premium Edition</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Pattern -->
+    <div class="background-pattern"></div>
+
+    <!-- Side Decorations -->
+    <div class="side-decoration decoration-left"></div>
+    <div class="side-decoration decoration-right"></div>
+    <div class="side-decoration decoration-top"></div>
+    <div class="side-decoration decoration-bottom"></div>
+
+    <!-- Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Slides Container -->
+    <div class="slides-container" id="slidesContainer">
+        
+        <!-- Slide 1: Judul -->
+        <section class="slide title-slide active animate-zoom" id="slide1">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-tr"></div>
+            <div class="corner-decoration corner-bl"></div>
+            <div class="corner-decoration corner-br"></div>
+            
+            <!-- Floating Elements -->
+            <div class="floating-element floating-circle" style="top: 20%; left: 10%;"></div>
+            <div class="floating-element floating-square" style="top: 70%; right: 15%;"></div>
+            <div class="floating-element floating-triangle" style="bottom: 20%; left: 20%;"></div>
+            
+            <div class="slide-content">
+                <h1 class="main-title">LAPORAN PRAKTIK KERJA LAPANGAN</h1>
+                <h2 class="sub-title">PENGERJAAN BACKEND PADA SISTEM POINT OF SALE (POS) MENGGUNAKAN LARAVEL</h2>
+                <h3 class="sub-title">DI PT. METANOUVA INFORMATIKA</h3>
+                
+                <div style="margin-top: 60px;">
+                    <p style="font-size: 1.6rem; opacity: 0.9;">Diajukan sebagai syarat untuk mengikuti Uji Kompetensi Keahlian</p>
+                </div>
+                
+                <div style="margin-top: 80px;">
+                    <div style="background: rgba(255,255,255,0.1); display: inline-block; padding: 25px 45px; border-radius: 15px; backdrop-filter: blur(10px);">
+                        <p style="font-size: 1.4rem; margin-bottom: 10px;">Disusun Oleh: <strong>HADIQA</strong></p>
+                        <p style="font-size: 1.4rem; margin-bottom: 10px;">NISN: <strong>0087733308</strong></p>
+                        <p style="font-size: 1.4rem;">SMK NEGERI 1 MANGGAR - 2026</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">1</div>
+        </section>
+
+        <!-- Slide 2: Pendahuluan -->
+        <section class="slide" id="slide2">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-tr"></div>
+            <div class="corner-decoration corner-bl"></div>
+            <div class="corner-decoration corner-br"></div>
+            
+            <div class="slide-content">
+                <h2 class="slide-title">PENDAHULUAN</h2>
+                
+                <div class="highlight-box">
+                    <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 15px;">LATAR BELAKANG</h3>
+                    <p style="font-size: 1.4rem; line-height: 1.7;">Pembelajaran di SMK dirancang dengan pendekatan berbasis kompetensi keahlian dan profesionalisme dunia kerja. Sebagai siswa Teknik Komputer dan Jaringan di SMK Negeri 1 Manggar, saya melaksanakan PKL di PT. Metanouva Informatika untuk mengimplementasikan ilmu pemrograman yang telah dipelajari di sekolah ke dalam lingkungan kerja profesional.</p>
+                </div>
+                
+                <h3 style="color: var(--primary); margin-top: 40px; font-size: 1.8rem; margin-bottom: 20px;">TUJUAN PKL</h3>
+                <ul class="bullet-list">
+                    <li><strong>Meningkatkan, memperluas, dan menetapkan keterampilan siswa</strong> sebagai bekal memasuki lapangan kerja</li>
+                    <li><strong>Memberikan pengalaman kerja yang sesungguhnya</strong> sebelum terjun ke lapangan kerja dan masyarakat</li>
+                    <li><strong>Melahirkan sikap tanggung jawab, disiplin, etika yang baik</strong> serta dapat bersosialisasi</li>
+                    <li><strong>Menghasilkan calon tenaga kerja tingkat menengah</strong> yang memiliki sikap professional</li>
+                </ul>
+            </div>
+            <div class="slide-number">2</div>
+        </section>
+
+        <!-- Slide 3: Profil Perusahaan -->
+        <section class="slide" id="slide3">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-tr"></div>
+            <div class="corner-decoration corner-bl"></div>
+            <div class="corner-decoration corner-br"></div>
+            
+            <div class="slide-content">
+                <h2 class="slide-title">PROFIL PERUSAHAAN</h2>
+                
+                <div class="two-column">
+                    <div class="column">
+                        <h3><i class="fas fa-history" style="color: var(--primary); margin-right: 10px;"></i> SEJARAH</h3>
+                        <p style="line-height: 1.6; font-size: 1.3rem; margin-top: 15px;">PT. Metanouva Informatika (MALAKA9 Studio) berdiri sejak tahun 1998. Didirikan oleh mahasiswa ITB termasuk Dimas Syailendra R. sebagai direktur utama. Aktif dalam pengembangan sistem informasi untuk pemerintahan dan swasta.</p>
+                    </div>
+                    
+                    <div class="column">
+                        <h3><i class="fas fa-eye" style="color: var(--primary); margin-right: 10px;"></i> VISI & MISI</h3>
+                        <p style="line-height: 1.6; font-size: 1.3rem; margin-top: 15px;"><strong>Visi:</strong> Menjadi perusahaan penyedia layanan dan solusi teknologi informasi yang inovatif, handal dan terpercaya</p>
+                        <p style="line-height: 1.6; font-size: 1.3rem; margin-top: 10px;"><strong>Misi:</strong> Memberikan solusi integrasi sistem yang inovatif dan berorientasi pada solusi terpercaya berbasis teknologi informasi</p>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 40px;">
+                    <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 15px;">BIDANG USAHA</h3>
+                    <p style="font-size: 1.4rem; line-height: 1.7; margin-top: 10px; padding: 20px; background: linear-gradient(135deg, rgba(0,120,212,0.05), rgba(0,178,148,0.05)); border-radius: 10px;">
+                        Pengembangan Perangkat Lunak, Sistem Informasi, Teknologi Informasi, dan Multimedia dengan merek dagang Digitak.
+                    </p>
+                </div>
+            </div>
+            <div class="slide-number">3</div>
+        </section>
+
+        <!-- Slide 4: Waktu & Tempat -->
+        <section class="slide" id="slide4">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-tr"></div>
+            <div class="corner-decoration corner-bl"></div>
+            <div class="corner-decoration corner-br"></div>
+            
+            <div class="slide-content">
+                <h2 class="slide-title">WAKTU DAN TEMPAT PELAKSANAAN</h2>
+                
+                <div class="two-column">
+                    <div class="column">
+                        <h3><i class="fas fa-calendar-alt" style="color: var(--primary); margin-right: 10px;"></i> WAKTU PELAKSANAAN</h3>
+                        <div style="margin-top: 20px;">
+                            <p style="font-size: 1.3rem; margin-bottom: 15px;"><strong>Periode:</strong><br>1 Oktober - 24 Desember 2025</p>
+                            <p style="font-size: 1.3rem; margin-bottom: 15px;"><strong>Durasi:</strong><br>3 Bulan</p>
+                            <p style="font-size: 1.3rem;"><strong>Jam Kerja:</strong><br>09.30 - 16.00 WIB</p>
+                        </div>
+                    </div>
+                    
+                    <div class="column">
+                        <h3><i class="fas fa-map-marker-alt" style="color: var(--primary); margin-right: 10px;"></i> TEMPAT PELAKSANAAN</h3>
+                        <div style="margin-top: 20px;">
+                            <p style="font-size: 1.3rem; margin-bottom: 15px;"><strong>Nama:</strong><br>PT. Metanouva Informatika</p>
+                            <p style="font-size: 1.3rem;"><strong>Alamat:</strong><br>Jl. Gunung Batu dalam Komplek Citra Asri permai No. C26, Pasir Kaliki, Cimahi Utara, Jawa Barat 40514</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="highlight-box" style="margin-top: 40px;">
+                    <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 15px;">TAHAP PELAKSANAAN</h3>
+                    <p style="font-size: 1.4rem; line-height: 1.7;">PKL bekerja dari hari Senin sampai Jumat sesuai jam kerja perusahaan. Dilaksanakan sesuai dengan ketentuan yang berlaku di PT. Metanouva Informatika dengan pembimbingan intensif dari mentor profesional.</p>
+                </div>
+            </div>
+            <div class="slide-number">4</div>
+        </section>
+
+        <!-- Slide 5: Landasan Teori -->
+        <section class="slide" id="slide5">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-tr"></div>
+            <div class="corner-decoration corner-bl"></div>
+            <div class="corner-decoration corner-br"></div>
+            
+            <div class="slide-content">
+                <h2 class="slide-title">LANDASAN TEORI</h2>
+                
+                <div class="two-column">
+                    <div class="column">
+                        <h3><i class="fas fa-cash-register" style="color: var(--primary); margin-right: 10px;"></i> POINT OF SALE (POS)</h3>
+                        <p style="line-height: 1.6; font-size: 1.3rem; margin-top: 15px;">Sistem terkomputerisasi yang mengintegrasikan hardware dan software untuk memproses transaksi penjualan, mengelola inventaris, dan menghasilkan laporan keuangan secara real-time.</p>
+                    </div>
+                    
+                    <div class="column">
+                        <h3><i class="fas fa-sitemap" style="color: var(--primary); margin-right: 10px;"></i> OOP & MVC</h3>
+                        <p style="line-height: 1.6; font-size: 1.3rem; margin-top: 15px;"><strong>OOP:</strong> Paradigma pemrograman berorientasi objek dengan prinsip enkapsulasi, inheritance, polimorfisme, dan abstraksi untuk kode yang modular.</p>
+                        <p style="line-height: 1.6; font-size: 1.3rem; margin-top: 10px;"><strong>MVC:</strong> Pola desain yang memisahkan Model (data), View (tampilan), dan Controller (logika) untuk aplikasi yang terstruktur.</p>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 40px;">
+                    <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 15px;">LARAVEL FRAMEWORK</h3>
+                    <div style="background: linear-gradient(135deg, rgba(0,120,212,0.05), rgba(0,178,148,0.05)); padding: 25px; border-radius: 15px; border-left: 5px solid var(--primary);">
+                        <p style="font-size: 1.4rem; line-height: 1.7;">Framework PHP open-source yang mengikuti pola MVC, menyediakan sintaks elegan, fitur lengkap (routing, authentication, caching), serta efisiensi waktu dan kode untuk pengembangan aplikasi web modern.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">5</div>
+        </section>
+
+        <!-- Slide 6: Database Design -->
+        <section class="slide" id="slide6">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-tr"></div>
+            <div class="corner-decoration corner-bl"></div>
+            <div class="corner-decoration corner-br"></div>
+            
+            <div class="slide-content">
+                <h2 class="slide-title">DESAIN DATABASE</h2>
+                
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>Tabel</th>
+                            <th>Field Utama</th>
+                            <th>Fungsi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="font-weight: bold; color: var(--primary);">products</td>
+                            <td>id, barcode, name, price, stock</td>
+                            <td>Menyimpan data produk dan inventaris</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold; color: var(--primary);">users</td>
+                            <td>id, name, email, password, role</td>
+                            <td>Data pengguna dengan role admin/kasir</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold; color: var(--primary);">transactions</td>
+                            <td>id, invoice_no, cashier_id, total</td>
+                            <td>Header transaksi penjualan</td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold; color: var(--primary);">transaction_items</td>
+                            <td>transaction_id, product_id, qty, price</td>
+                            <td>Detail item dalam transaksi</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="code-block" style="margin-top: 35px; font-size: 1rem;">
+// Migration untuk tabel products<br>
+Schema::create('products', function (Blueprint $table) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;$table->id();<br>
+&nbsp;&nbsp;&nbsp;&nbsp;$table->string('barcode', 100)->unique();<br>
+&nbsp;&nbsp;&nbsp;&nbsp;$table->string('name');<br>
+&nbsp;&nbsp;&nbsp;&nbsp;$table->decimal('price', 10, 2);<br>
+&nbsp;&nbsp;&nbsp;&nbsp;$table->integer('stock');<br>
+&nbsp;&nbsp;&nbsp;&nbsp;$table->timestamps();<br>
+});
+                </div>
+            </div>
+            <div class="slide-number">6</div>
+        </section>
+
+        <!-- Slide 7: Authentication System -->
+        <section class="slide" id="slide7">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-tr"></div>
+            <div class="corner-decoration corner-bl"></div>
+            <div class="corner-decoration corner-br"></div>
+            
+            <div class="slide-content">
+                <h2 class="slide-title">AUTHENTICATION & AUTHORIZATION</h2>
+                
+                <div class="two-column">
+                    <div class="column">
+                        <h3><i class="fas fa-user-shield" style="color: var(--primary); margin-right: 10px;"></i> AUTHENTICATION</h3>
+                        <p style="line-height: 1.6; font-size: 1.3rem; margin-top: 15px;">Menggunakan Laravel Breeze untuk sistem login yang aman:</p>
+                        <ul style="margin-left: 25px; margin-top: 15px; line-height: 1.6;">
+                            <li>Login system dengan validasi email/password</li>
+                            <li>Session management terenkripsi</li>
+                            <li>Password hashing dengan bcrypt</li>
+                            <li>Remember me functionality</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="column">
+                        <h3><i class="fas fa-user-lock" style="color: var(--primary); margin-right: 10px;"></i> AUTHORIZATION</h3>
+                        <p style="line-height: 1.6; font-size: 1.3rem; margin-top: 15px;">Role-Based Access Control dengan middleware custom:</p>
+                        <div class="code-block" style="margin-top: 15px; font-size: 0.9rem;">
+// Middleware CheckRole<br>
+if (!in_array(auth()->user()->role, $roles)) {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;abort(403, 'Unauthorized access');<br>
+}
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 40px;">
+                    <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 20px;">DUAL ROLE SYSTEM</h3>
+                    <div class="two-column" style="margin-top: 15px;">
+                        <div style="background: linear-gradient(135deg, #e8f5e9, #c8e6c9); padding: 20px; border-radius: 12px; border-left: 5px solid #4CAF50;">
+                            <h4 style="color: #2e7d32;">ADMIN ROLE</h4>
+                            <p style="font-size: 1.2rem; line-height: 1.6; margin-top: 10px;">- CRUD produk & kategori<br>- Lihat laporan lengkap<br>- Manajemen user kasir<br>- Setting aplikasi</p>
+                        </div>
+                        <div style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); padding: 20px; border-radius: 12px; border-left: 5px solid #2196F3;">
+                            <h4 style="color: #1565c0;">KASIR ROLE</h4>
+                            <p style="font-size: 1.2rem; line-height: 1.6; margin-top: 10px;">- Proses transaksi<br>- Cetak struk penjualan<br>- Lihat riwayat sendiri<br>- Cek stok produk</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">7</div>
+        </section>
+
+        <!-- Slide 8: Timeline Pengerjaan -->
+        <section class="slide" id="slide8">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-tr"></div>
+            <div class="corner-decoration corner-bl"></div>
+            <div class="corner-decoration corner-br"></div>
+            
+            <div class="slide-content">
+                <h2 class="slide-title">TIMELINE PENGERJAAN</h2>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">MINGGU 1-2: ORIENTASI & SETUP</div>
+                        <p style="font-size: 1.3rem; line-height: 1.6;">Pengenalan perusahaan, pembekalan keselamatan kerja, instalasi environment development (XAMPP, Composer, Laravel), setup project awal, dan briefing kebutuhan sistem.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">MINGGU 3-6: ANALISIS & PERENCANAAN</div>
+                        <p style="font-size: 1.3rem; line-height: 1.6;">Analisis sistem yang ada, identifikasi kebutuhan user, penyusunan proposal solusi, desain database relational, pembuatan migration, dan ERD diagram.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">MINGGU 7-10: IMPLEMENTASI</div>
+                        <p style="font-size: 1.3rem; line-height: 1.6;">Pengembangan solusi, pembuatan CRUD products dan categories, implementasi authentication dengan Laravel Breeze, transaction processing system, dan UI/UX implementation.</p>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">MINGGU 11-12: TESTING & DEPLOYMENT</div>
+                        <p style="font-size: 1.3rem; line-height: 1.6;">Comprehensive testing, debugging, optimization, deployment ke local server, pembuatan user manual, dokumentasi teknis, dan penyusunan laporan akhir.</p>
+                    </div>
+                </div>
+                
+                <div class="highlight-box" style="margin-top: 40px;">
+                    <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 20px;">TEKNOLOGI YANG DIGUNAKAN</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 15px;">
+                        <div style="text-align: center; background: linear-gradient(135deg, #e3f2fd, #bbdefb); padding: 15px; border-radius: 10px;">
+                            <p style="font-weight: bold; color: var(--primary); font-size: 1.2rem;">Laravel 11</p>
+                            <p style="font-size: 0.9rem; margin-top: 5px;">PHP Framework</p>
+                        </div>
+                        <div style="text-align: center; background: linear-gradient(135deg, #e8f5e9, #c8e6c9); padding: 15px; border-radius: 10px;">
+                            <p style="font-weight: bold; color: #2e7d32; font-size: 1.2rem;">PHP 8.2</p>
+                            <p style="font-size: 0.9rem; margin-top: 5px;">Backend Language</p>
+                        </div>
+                        <div style="text-align: center; background: linear-gradient(135deg, #fff3e0, #ffe0b2); padding: 15px; border-radius: 10px;">
+                            <p style="font-weight: bold; color: #f57c00; font-size: 1.2rem;">MySQL 8.0</p>
+                            <p style="font-size: 0.9rem; margin-top: 5px;">Database</p>
+                        </div>
+                        <div style="text-align: center; background: linear-gradient(135deg, #f3e5f5, #e1bee7); padding: 15px; border-radius: 10px;">
+                            <p style="font-weight: bold; color: #7b1fa2; font-size: 1.2rem;">Bootstrap 5</p>
+                            <p style="font-size: 0.9rem; margin-top: 5px;">UI Framework</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">8</div>
+        </section>
+
+        <!-- Slide 9: Hasil & Pencapaian -->
+        <section class="slide" id="slide9">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-tr"></div>
+            <div class="corner-decoration corner-bl"></div>
+            <div class="corner-decoration corner-br"></div>
+            
+            <div class="slide-content">
+                <h2 class="slide-title">HASIL DAN PENCAPAIAN</h2>
+                
+                <div class="two-column">
+                    <div class="column">
+                        <h3><i class="fas fa-code" style="color: var(--primary); margin-right: 10px;"></i> HARD SKILLS</h3>
+                        <ul style="margin-left: 25px; margin-top: 15px; line-height: 1.6;">
+                            <li>Penguasaan Laravel Framework & MVC Pattern</li>
+                            <li>Implementasi OOP dengan best practices</li>
+                            <li>Database design & MySQL optimization</li>
+                            <li>Git version control workflow</li>
+                            <li>RESTful API development</li>
+                            <li>Unit testing & debugging techniques</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="column">
+                        <h3><i class="fas fa-users" style="color: var(--primary); margin-right: 10px;"></i> SOFT SKILLS</h3>
+                        <ul style="margin-left: 25px; margin-top: 15px; line-height: 1.6;">
+                            <li>Effective communication & presentation</li>
+                            <li>Team collaboration & agile workflow</li>
+                            <li>Time management & deadline oriented</li>
+                            <li>Problem solving & critical thinking</li>
+                            <li>Adaptability & continuous learning</li>
+                            <li>Professional ethics & work discipline</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="highlight-box" style="margin-top: 40px;">
+                    <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 20px;">OUTPUT YANG DIHASILKAN</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 15px;">
+                        <div style="text-align: center; background: linear-gradient(135deg, #e3f2fd, #bbdefb); padding: 20px; border-radius: 12px;">
+                            <i class="fas fa-laptop-code" style="font-size: 2rem; color: var(--primary); margin-bottom: 10px;"></i>
+                            <p style="font-weight: bold; color: var(--primary); font-size: 1.2rem;">POS Application</p>
+                            <p style="font-size: 1rem; margin-top: 5px;">Sistem POS web dengan fitur lengkap</p>
+                        </div>
+                        <div style="text-align: center; background: linear-gradient(135deg, #e8f5e9, #c8e6c9); padding: 20px; border-radius: 12px;">
+                            <i class="fas fa-file-alt" style="font-size: 2rem; color: #2e7d32; margin-bottom: 10px;"></i>
+                            <p style="font-weight: bold; color: #2e7d32; font-size: 1.2rem;">Documentation</p>
+                            <p style="font-size: 1rem; margin-top: 5px;">Laporan & user manual lengkap</p>
+                        </div>
+                        <div style="text-align: center; background: linear-gradient(135deg, #fff3e0, #ffe0b2); padding: 20px; border-radius: 12px;">
+                            <i class="fas fa-code-branch" style="font-size: 2rem; color: #f57c00; margin-bottom: 10px;"></i>
+                            <p style="font-weight: bold; color: #f57c00; font-size: 1.2rem;">Source Code</p>
+                            <p style="font-size: 1rem; margin-top: 5px;">Git repository terstruktur</p>
+                        </div>
+                        <div style="text-align: center; background: linear-gradient(135deg, #f3e5f5, #e1bee7); padding: 20px; border-radius: 12px;">
+                            <i class="fas fa-briefcase" style="font-size: 2rem; color: #7b1fa2; margin-bottom: 10px;"></i>
+                            <p style="font-weight: bold; color: #7b1fa2; font-size: 1.2rem;">Portfolio</p>
+                            <p style="font-size: 1rem; margin-top: 5px;">Pengalaman kerja profesional</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">9</div>
+        </section>
+
+        <!-- Slide 10: Kendala & Solusi -->
+        <section class="slide" id="slide10">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-tr"></div>
+            <div class="corner-decoration corner-bl"></div>
+            <div class="corner-decoration corner-br"></div>
+            
+            <div class="slide-content">
+                <h2 class="slide-title">KENDALA DAN SOLUSI</h2>
+                
+                <table class="data-table">
+                    <thead>
+                        <tr>
+                            <th>KENDALA</th>
+                            <th>SOLUSI</th>
+                            <th>HASIL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pemahaman konsep OOP dan MVC</td>
+                            <td>Studi mandiri intensif & konsultasi mentor</td>
+                            <td>Berhasil menerapkan dengan baik</td>
+                        </tr>
+                        <tr>
+                            <td>Setting environment Laravel</td>
+                            <td>Mengikuti tutorial & dokumentasi resmi</td>
+                            <td>Environment berjalan optimal</td>
+                        </tr>
+                        <tr>
+                            <td>Database relationship</td>
+                            <td>Mempelajari Eloquent ORM Laravel</td>
+                            <td>Relationship antar tabel berfungsi</td>
+                        </tr>
+                        <tr>
+                            <td>Authentication system</td>
+                            <td>Implementasi Laravel Breeze</td>
+                            <td>Sistem login dan role bekerja</td>
+                        </tr>
+                        <tr>
+                            <td>Transaction logic</td>
+                            <td>Menerapkan database transaction</td>
+                            <td>Data konsisten & integritas terjaga</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="highlight-box" style="margin-top: 40px;">
+                    <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 15px;">PEMBELAJARAN PENTING</h3>
+                    <p style="font-size: 1.4rem; line-height: 1.7;">Pengalaman nyata dalam mengembangkan aplikasi dari analisis hingga deployment memberikan pemahaman mendalam tentang software development lifecycle, pentingnya dokumentasi, version control, dan best practices dalam pengembangan aplikasi modern.</p>
+                </div>
+            </div>
+            <div class="slide-number">10</div>
+        </section>
+
+        <!-- Slide 11: Kesimpulan -->
+        <section class="slide" id="slide11">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-tr"></div>
+            <div class="corner-decoration corner-bl"></div>
+            <div class="corner-decoration corner-br"></div>
+            
+            <div class="slide-content">
+                <h2 class="slide-title">KESIMPULAN</h2>
+                
+                <div class="highlight-box">
+                    <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 15px;">KESIMPULAN UTAMA</h3>
+                    <p style="font-size: 1.4rem; line-height: 1.7;">Praktik Kerja Lapangan di PT. Metanouva Informatika telah memberikan pengalaman berharga dalam mengimplementasikan ilmu pemrograman ke dalam project nyata. Sistem POS berbasis web berhasil dikembangkan menggunakan Laravel Framework dengan menerapkan konsep OOP dan MVC secara komprehensif.</p>
+                </div>
+                
+                <ul class="bullet-list" style="margin-top: 40px;">
+                    <li>Sistem POS adalah sistem terkomputerisasi untuk transaksi retail yang telah berhasil dikembangkan dengan fitur lengkap untuk kebutuhan UMKM</li>
+                    <li>Framework Laravel dengan pola MVC terbukti sangat efektif dan efisien untuk pengembangan aplikasi web skala menengah</li>
+                    <li>Aplikasi POS memiliki sistem dual role (Admin & Kasir) dengan hak akses yang terpisah dan aman</li>
+                    <li>PKL memberikan pengalaman kerja profesional yang memperkaya soft skills dan etika kerja di lingkungan IT company</li>
+                    <li>Kompetensi teknis meningkat signifikan dalam penggunaan Laravel, MySQL, Git, dan teknologi web modern lainnya</li>
+                </ul>
+            </div>
+            <div class="slide-number">11</div>
+        </section>
+
+        <!-- Slide 12: Saran -->
+        <section class="slide" id="slide12">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-tr"></div>
+            <div class="corner-decoration corner-bl"></div>
+            <div class="corner-decoration corner-br"></div>
+            
+            <div class="slide-content">
+                <h2 class="slide-title">SARAN DAN REKOMENDASI</h2>
+                
+                <div class="two-column">
+                    <div class="column">
+                        <h3><i class="fas fa-school" style="color: var(--primary); margin-right: 10px;"></i> UNTUK SEKOLAH</h3>
+                        <ul style="margin-left: 20px; margin-top: 15px; line-height: 1.6;">
+                            <li>Tambah materi Laravel Framework di kurikulum RPL</li>
+                            <li>Upgrade fasilitas lab komputer dengan spesifikasi yang memadai</li>
+                            <li>Workshop Git, VS Code, dan tools development sebelum PKL</li>
+                            <li>Kerjasama dengan lebih banyak perusahaan IT terkemuka</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="column">
+                        <h3><i class="fas fa-building" style="color: var(--primary); margin-right: 10px;"></i> UNTUK PERUSAHAAN</h3>
+                        <ul style="margin-left: 20px; margin-top: 15px; line-height: 1.6;">
+                            <li>Membuat panduan/modul pembelajaran terstruktur untuk peserta PKL</li>
+                            <li>Menetapkan mentor khusus dengan jadwal bimbingan rutin</li>
+                            <li>Memberikan project yang lebih beragam sesuai minat peserta</li>
+                            <li>Mengadakan sesi sharing dengan senior developer secara berkala</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 40px;">
+                    <h3 style="color: var(--primary); font-size: 1.8rem; margin-bottom: 20px;">UNTUK PENGEMBANGAN APLIKASI</h3>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 15px;">
+                        <div style="background: linear-gradient(135deg, #e8f5e9, #c8e6c9); padding: 20px; border-radius: 12px;">
+                            <h4 style="color: #2e7d32;">Integrasi Payment Gateway</h4>
+                            <p style="font-size: 1.1rem; margin-top: 10px;">QRIS, e-wallet, transfer bank untuk transaksi non-tunai</p>
+                        </div>
+                        <div style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); padding: 20px; border-radius: 12px;">
+                            <h4 style="color: #1565c0;">Mobile Companion App</h4>
+                            <p style="font-size: 1.1rem; margin-top: 10px;">Monitoring real-time via smartphone untuk owner</p>
+                        </div>
+                        <div style="background: linear-gradient(135deg, #fff3e0, #ffe0b2); padding: 20px; border-radius: 12px;">
+                            <h4 style="color: #f57c00;">Analytics Dashboard</h4>
+                            <p style="font-size: 1.1rem; margin-top: 10px;">Chart, statistik, dan prediksi penjualan canggih</p>
+                        </div>
+                        <div style="background: linear-gradient(135deg, #f3e5f5, #e1bee7); padding: 20px; border-radius: 12px;">
+                            <h4 style="color: #7b1fa2;">Smart Notifications</h4>
+                            <p style="font-size: 1.1rem; margin-top: 10px;">Notifikasi otomatis untuk stok hampir habis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">12</div>
+        </section>
+
+        <!-- Slide 13: Penutup -->
+        <section class="slide thank-you" id="slide13">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-tr"></div>
+            <div class="corner-decoration corner-bl"></div>
+            <div class="corner-decoration corner-br"></div>
+            
+            <div class="slide-content">
+                <h1 class="main-title">TERIMA KASIH</h1>
+                
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <p style="font-size: 1.8rem; margin-bottom: 40px; opacity: 0.9;">Atas perhatian dan kesempatan yang telah diberikan</p>
+                    
+                    <div style="background: rgba(255,255,255,0.15); padding: 35px; border-radius: 20px; margin: 50px 0; backdrop-filter: blur(10px);">
+                        <h3 style="margin-bottom: 25px; font-size: 2.2rem; color: var(--accent);">UCAPAN TERIMA KASIH KEPADA:</h3>
+                        <div style="columns: 2; column-gap: 60px; font-size: 1.4rem;">
+                            <ul style="list-style: none; margin-bottom: 20px;">
+                                <li><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 15px;"></i> PT. Metanouva Informatika</li>
+                                <li><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 15px;"></i> Pembimbing Perusahaan</li>
+                                <li><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 15px;"></i> SMK Negeri 1 Manggar</li>
+                                <li><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 15px;"></i> Dosen Pembimbing</li>
+                            </ul>
+                            <ul style="list-style: none;">
+                                <li><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 15px;"></i> Tim Development</li>
+                                <li><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 15px;"></i> Staf dan Karyawan</li>
+                                <li><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 15px;"></i> Keluarga dan Teman</li>
+                                <li><i class="fas fa-check-circle" style="color: var(--accent); margin-right: 15px;"></i> Semua Pihak yang Membantu</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="qna">Q & A SESSION</div>
+                    
+                    <div style="margin-top: 80px; font-size: 1.5rem;">
+                        <p style="font-style: italic;">"Pengalaman adalah guru terbaik yang memberikan pelajaran tak ternilai"</p>
+                        <p style="margin-top: 20px; color: var(--accent); font-weight: bold; font-size: 1.8rem;">HADIQA - SMK Negeri 1 Manggar - 2026</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-number">13</div>
+        </section>
+
+    </div>
+
+    <!-- Navigation Controls -->
+    <div class="nav-controls">
+        <button class="nav-btn" id="prevBtn" title="Previous Slide (← or ↑)">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        
+        <div class="nav-info">
+            <span id="currentSlide">1</span>
+            <span>/</span>
+            <span id="totalSlides">13</span>
+        </div>
+        
+        <button class="nav-btn" id="nextBtn" title="Next Slide (→ or ↓)">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <!-- Fullscreen Button -->
+    <button class="fullscreen-btn" id="fullscreenBtn" title="Toggle Fullscreen (F)">
+        <i class="fas fa-expand"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+  </html>
